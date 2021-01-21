@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 )
 
 func FormatText(_ io.Writer, results []scanner.Result, _ string, options ...FormatterOption) error {

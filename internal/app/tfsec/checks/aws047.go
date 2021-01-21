@@ -6,8 +6,8 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"strings"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 )
 
 const AWSSqsPolicyWildcardActions scanner.RuleCode = "AWS047"

@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/checks"
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/checks"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 )
 
 func Test_AZUDefaultActionOnNetworkRuleSetToDeny(t *testing.T) {
