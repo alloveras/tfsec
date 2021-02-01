@@ -3,7 +3,7 @@ package parser
 import (
 	"fmt"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/timer"
+	"github.com/tfsec/tfsec/internal/app/tfsec/timer"
 
 	"github.com/hashicorp/hcl/v2"
 )

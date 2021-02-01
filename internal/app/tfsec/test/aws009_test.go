@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/checks"
-	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
+	"github.com/tfsec/tfsec/internal/app/tfsec/checks"
+	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
 )
 
 func Test_AWSOpenEgressSecurityGroup(t *testing.T) {

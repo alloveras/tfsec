@@ -6,13 +6,13 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/parser"
+	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/timer"
+	"github.com/tfsec/tfsec/internal/app/tfsec/timer"
 
 	"github.com/liamg/clinch/terminal"
 	"github.com/liamg/tml"
-	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
+	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
 )
 
 func FormatDefault(_ io.Writer, results []scanner.Result, _ string, options ...FormatterOption) error {

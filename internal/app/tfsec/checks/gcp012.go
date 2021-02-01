@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/parser"
-	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
+	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
+	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
 )
 
 const GCPGKENodeServiceAccount scanner.RuleCode = "GCP012"

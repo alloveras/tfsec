@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/debug"
+	"github.com/tfsec/tfsec/internal/app/tfsec/debug"
 
 	"github.com/zclconf/go-cty/cty"
 

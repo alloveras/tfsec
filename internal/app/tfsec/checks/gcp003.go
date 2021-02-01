@@ -2,9 +2,9 @@ package checks
 
 import (
 	"fmt"
-	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
+	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/parser"
+	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
 )
 
 // GoogleOpenInboundFirewallRule See https://github.com/tfsec/tfsec#included-checks for check info

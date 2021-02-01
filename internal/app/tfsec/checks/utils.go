@@ -1,8 +1,8 @@
 package checks
 
 import (
-	"github.com/Canva/tfsec/internal/app/tfsec/parser"
-	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
+	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
+	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
 	"github.com/zclconf/go-cty/cty"
 	"strings"
 )

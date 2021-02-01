@@ -3,10 +3,10 @@ package parser
 import (
 	"reflect"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/timer"
+	"github.com/tfsec/tfsec/internal/app/tfsec/timer"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/Canva/tfsec/internal/app/tfsec/debug"
+	"github.com/tfsec/tfsec/internal/app/tfsec/debug"
 	"github.com/zclconf/go-cty/cty"
 )
 

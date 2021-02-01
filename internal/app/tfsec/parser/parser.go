@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/debug"
-	"github.com/Canva/tfsec/internal/app/tfsec/timer"
+	"github.com/tfsec/tfsec/internal/app/tfsec/debug"
+	"github.com/tfsec/tfsec/internal/app/tfsec/timer"
 )
 
 // Parser is a tool for parsing terraform templates at a given file system location

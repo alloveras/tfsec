@@ -3,7 +3,7 @@ package config_test
 import (
 	"fmt"
 	"github.com/stretchr/testify/assert"
-	"github.com/Canva/tfsec/internal/app/tfsec/config"
+	"github.com/tfsec/tfsec/internal/app/tfsec/config"
 	"io/ioutil"
 	"os"
 	"testing"

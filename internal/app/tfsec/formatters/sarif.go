@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/owenrumney/go-sarif/sarif"
-	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
+	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
 )
 
 func FormatSarif(w io.Writer, results []scanner.Result, baseDir string, options ...FormatterOption) error {

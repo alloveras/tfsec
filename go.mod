@@ -1,4 +1,4 @@
-module github.com/Canva/tfsec
+module github.com/tfsec/tfsec
 
 go 1.15
 

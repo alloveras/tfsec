@@ -3,13 +3,13 @@ package checks
 import (
 	"fmt"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/security"
+	"github.com/tfsec/tfsec/internal/app/tfsec/security"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
+	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/Canva/tfsec/internal/app/tfsec/parser"
+	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
 )
 
 // GenericSensitiveAttributes See https://github.com/tfsec/tfsec#included-checks for check info
