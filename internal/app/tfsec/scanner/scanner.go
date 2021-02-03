@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/timer"
+	"github.com/Canva/tfsec/internal/app/tfsec/timer"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/debug"
+	"github.com/Canva/tfsec/internal/app/tfsec/debug"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
 )
 
 // Scanner scans HCL blocks by running all registered checks against them

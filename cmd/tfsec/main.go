@@ -2,26 +2,26 @@ package main
 
 import (
 	"fmt"
-	"github.com/tfsec/tfsec/internal/app/tfsec/config"
+	"github.com/Canva/tfsec/internal/app/tfsec/config"
 	"os"
 	"path/filepath"
 	"runtime"
 	"strings"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/custom"
+	"github.com/Canva/tfsec/internal/app/tfsec/custom"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/debug"
+	"github.com/Canva/tfsec/internal/app/tfsec/debug"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/formatters"
+	"github.com/Canva/tfsec/internal/app/tfsec/formatters"
 
 	"github.com/liamg/tml"
 
 	"github.com/spf13/cobra"
 
-	_ "github.com/tfsec/tfsec/internal/app/tfsec/checks"
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
-	"github.com/tfsec/tfsec/version"
+	_ "github.com/Canva/tfsec/internal/app/tfsec/checks"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/version"
 )
 
 var showVersion = false

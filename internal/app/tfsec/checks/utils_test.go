@@ -1,12 +1,12 @@
 package checks
 
 import (
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 	"testing"
 
 	hcl "github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
 )
 
 func Test_isBooleanOrStringTrue(t *testing.T) {

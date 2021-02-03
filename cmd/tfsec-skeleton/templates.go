@@ -3,8 +3,8 @@ package main
 const checkTemplate = `package checks
 
 import (
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 )
 
 const {{.CheckName}} scanner.RuleCode = "{{.Provider | ToUpper }}{{ .Code}}"
@@ -53,8 +53,8 @@ const checkTestTemplate = `package test
 import (
 	"testing"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/checks"
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/checks"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 )
 
 func Test_{{.CheckName}}(t *testing.T) {

@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/security"
+	"github.com/Canva/tfsec/internal/app/tfsec/security"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
 )
 
 const AWSTaskDefinitionWithSensitiveEnvironmentVariables scanner.RuleCode = "AWS013"

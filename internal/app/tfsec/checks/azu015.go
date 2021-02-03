@@ -3,8 +3,8 @@ package checks
 import (
 	"fmt"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 )
 
 const AZUMinTLSForStorageAccountsSet scanner.RuleCode = "AZU015"

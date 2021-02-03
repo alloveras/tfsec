@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"github.com/tfsec/tfsec/internal/app/tfsec/custom"
+	"github.com/Canva/tfsec/internal/app/tfsec/custom"
 	"os"
 )
 

@@ -3,10 +3,10 @@ package parser
 import (
 	"io/ioutil"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/timer"
+	"github.com/Canva/tfsec/internal/app/tfsec/timer"
 
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/tfsec/tfsec/internal/app/tfsec/debug"
+	"github.com/Canva/tfsec/internal/app/tfsec/debug"
 	"github.com/zclconf/go-cty/cty"
 
 	"github.com/hashicorp/hcl/v2"

@@ -6,10 +6,10 @@ import (
 	"runtime/debug"
 	"strings"
 
-	internalDebug "github.com/tfsec/tfsec/internal/app/tfsec/debug"
+	internalDebug "github.com/Canva/tfsec/internal/app/tfsec/debug"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
 )
 
 // RuleCode is a unique identifier for a check

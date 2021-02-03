@@ -10,7 +10,7 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	"github.com/tfsec/tfsec/internal/app/tfsec/debug"
+	"github.com/Canva/tfsec/internal/app/tfsec/debug"
 )
 
 type Attribute struct {

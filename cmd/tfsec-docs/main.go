@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	_ "github.com/tfsec/tfsec/internal/app/tfsec/checks"
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	_ "github.com/Canva/tfsec/internal/app/tfsec/checks"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 )
 
 var (

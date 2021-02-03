@@ -2,8 +2,8 @@ package custom
 
 import (
 	"fmt"
-	"github.com/tfsec/tfsec/internal/app/tfsec/parser"
-	"github.com/tfsec/tfsec/internal/app/tfsec/scanner"
+	"github.com/Canva/tfsec/internal/app/tfsec/parser"
+	"github.com/Canva/tfsec/internal/app/tfsec/scanner"
 )
 
 var matchFunctions = map[CheckAction]func(*parser.Block, *MatchSpec) bool{
