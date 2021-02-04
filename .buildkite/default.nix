@@ -10,6 +10,7 @@ with nixpkgs;
 stdenv.mkDerivation {
   name = "canva-tfsec-build";
   buildInputs = [
-    python38
+    git
+    go
   ];
 }

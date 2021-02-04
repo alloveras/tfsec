@@ -1,0 +1,41 @@
+# This pipeline has different behavior depending on the BUILDKITE_TAG environment variable value.
+# If the environment variable exists and contains a valid release version, then the pipeline will build,
+# test and generate a new release for tfsec.
+# Otherwise, the pipeline will do nothing and report that it was triggered from an incorrect Git reference
+# (tag, commit, branch, etc).
+steps:
+
+  ################
+  # Invalid Tag Steps
+  ################
+  - label: ":pipeline: Validate"
+    command: |-
+      echo "The provided git tag is not a valid tag to trigger build and release operations" && exit 1
+    if: build.tag !~ /^v[0-9]+\.[0-9]+\.[0-9]+\+canva\$/
+    soft_fail:
+      - exit_status: 1
+    agents:
+      queue: "nix-ci"
+    plugins:
+      - arromer/github-fetch#6da4d215ba9e88923760b9b01257523592ab28ba:
+          app_id: "85068"
+          app_secret: "/nix-ci/github/app_private_key"
+
+  ################
+  # Valid Tag Steps
+  ################
+  - label: ":pipeline: Test & Build"
+    command: |-
+      echo "--- Nix Shell" && \
+      nix-shell \
+        --pure .buildkite/default.nix --keep BUILDKITE_TAG\
+        --run "echo \"--- Command\" && .buildkite/build.sh"
+    if: build.tag =~ /^v[0-9]+\.[0-9]+\.[0-9]+\+canva\$/
+    artifact_paths:
+      - "bin/*"
+    agents:
+      queue: "nix-ci"
+    plugins:
+      - arromer/github-fetch#6da4d215ba9e88923760b9b01257523592ab28ba:
+          app_id: "85068"
+          app_secret: "/nix-ci/github/app_private_key"
